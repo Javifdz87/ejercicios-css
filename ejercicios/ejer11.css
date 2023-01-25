@@ -1,0 +1,11 @@
+body{
+    background-attachment: scroll;
+    background-image: url("rana.png");
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+#p1{
+    color: red;
+}

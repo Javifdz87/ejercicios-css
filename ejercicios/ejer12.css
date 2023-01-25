@@ -1,0 +1,12 @@
+.class1{
+background-image: url("pie.png");
+background-repeat:no-repeat;
+background-size:auto;
+
+}
+.class2{
+    
+    background-image: url("pie.png");
+    background-repeat:no-repeat;
+    background-size: 300px 100px;
+}
