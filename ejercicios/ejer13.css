@@ -14,11 +14,16 @@
 }
 
 #p5{
-    border: 5px solid red;
+    border-color: black;
+    border-width: 15px;
+    border-style: double;
 }
 #p6{
-    border: 5px solid red;
+    border: 5px double black;
 }
 #p7{
-    border: 5px solid red;
+    border-color: black;
+    border-width: 10px;
+    border-style: groove;
+    border-top: 1px;
 }
