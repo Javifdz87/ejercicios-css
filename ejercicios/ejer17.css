@@ -1,0 +1,23 @@
+body{
+    background-color: #aaa;
+    background-image: url(rana.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.container{
+    background-position: center ;
+    max-width: auto;
+    text-align: center;
+    margin: 50px;
+    background-color: rgba(134, 134, 134, 0.8);
+    padding: 75px 0px;
+}
+.div1{
+    
+    background-position: center ;
+    max-width: auto;
+    text-align: center;
+    margin: 50px;
+    background-color:white;
+    padding: 75px 40px;
+}

@@ -1,0 +1,44 @@
+body{
+    background-color: #aaa;
+    background-image: url(rana.png);
+    background-repeat: no-repeat;
+    background-position: center center ;
+}
+.container{
+    background-position: center center;
+    max-width: 1200px;
+    text-align: center;
+    margin: 50px;
+    background-color: rgba(134, 134, 134, 0.8);
+    padding: 75px 0px;
+}
+.div1{
+    
+    background-position: center ;
+    text-align: center;
+    margin: 50px;
+    background-color:rgba(255, 0, 0, 0.514);
+    padding: 75px 40px;
+}
+.div2{
+    
+    background-position: center ;
+    text-align: center;
+    margin: 50px;
+    background-color:rgba(255, 255, 0, 0.514);
+    padding: 75px 40px;
+}
+.div3{
+    
+    background-position: center ;
+    text-align: center;
+    margin: 50px;
+    background-color:rgba(76, 43, 226, 0.514);
+    padding: 75px 40px;
+}
+h1.small{
+    font-variant: small-caps;
+}
+h2.small{
+    font-variant: small-caps;
+}
