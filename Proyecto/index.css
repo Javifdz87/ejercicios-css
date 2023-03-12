@@ -1,0 +1,50 @@
+body {
+
+    background-image: url(/Proyecto/fotos/fondo\ azuull.png);
+
+}
+
+#p1 {
+    width: 250px;
+    height: 95px;
+
+    transition: width 1s;
+
+    transition-timing-function: ease;
+}
+
+#p1:hover {
+    width: 270px;
+}
+
+#logo {
+    height: 150px;
+}
+
+#titulo {
+    height: 100px;
+    width: 500px;
+}
+
+#t1 {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#fl {
+    width: 350px;
+    height: 500px;
+    position: relative;
+    animation-name: flote;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; 
+    animation-timing-function: linear;
+}
+
+@keyframes flote {
+    from {top: 0px; }
+    to {top: 50px;}
+    
+}
