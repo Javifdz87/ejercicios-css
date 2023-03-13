@@ -1,5 +1,6 @@
 body {
-
+    background-size: auto;
+    background-attachment: fixed;
     background-image: url(/Proyecto/fotos/fondo\ azuull.png);
 
 }
@@ -70,6 +71,8 @@ body {
 .cuerpo{
     display: flex;
     max-width: 3000px;
+    margin:0px auto;
+    
 }
 
 .encabezado{
@@ -82,7 +85,14 @@ text-align: center;
 .direccion{
     border: 2px solid black;
     border-radius: 2px;
+    width: 250px;
 }
 .ft{
     float: left;
+}
+.cuerpo2{
+   
+    max-width: 3000px;
+    margin:0px auto;
+    
 }
