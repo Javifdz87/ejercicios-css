@@ -1,0 +1,29 @@
+.j {
+    display: inline-flex;
+    margin-bottom: 20px;
+}
+
+.c1 {
+    background-color: aqua;
+    border: 2px solid black;
+}
+
+.c2 {
+    background-color: orange;
+    margin-left: 20px;
+    border: 2px solid black;
+}
+
+.c3 {
+
+    background-color: green;
+    margin-bottom: 20px;
+    width: 50%;
+    border: 2px solid black;
+}
+
+.c4 {
+    width: 50%;
+    background-color: aqua;
+    border: 2px solid black;
+}

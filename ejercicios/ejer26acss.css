@@ -1,0 +1,15 @@
+div{
+    width: 900px;
+    height: 80px;
+    background-color: aqua;
+    border: 3px solid black;
+}
+
+.c2{
+position: absolute;
+top: 150px;
+left: 300px;
+background-image: linear-gradient(blue, red, lightgreen);
+}
+
+.c3{background-image: radial-gradient(red, yellow, green);}

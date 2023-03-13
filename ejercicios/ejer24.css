@@ -1,0 +1,16 @@
+.caja1{
+background-color: chocolate;
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    
+}
+.caja2{
+background-color: rgb(216, 214, 214);
+top: 30px;
+position: fixed;
+left: 100px;
+
+
+}
