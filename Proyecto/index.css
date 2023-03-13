@@ -48,3 +48,41 @@ body {
     to {top: 50px;}
     
 }
+
+#tra{
+    width: 250px;
+    height: 95px;
+    position: relative;
+    animation-name: izq;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; 
+    animation-timing-function: linear;
+    transition: width 1s;
+    transition-timing-function: ease;
+}
+@keyframes izq {
+    from {right: -300px; }
+    to {right: 0px;}
+    
+}
+.cuerpo{
+    display: flex;
+    max-width: 3000px;
+}
+
+.encabezado{
+text-align: center;
+}
+
+.opciones{
+    float: left;
+}
+.direccion{
+    border: 2px solid black;
+    border-radius: 2px;
+}
+.ft{
+    float: left;
+}
