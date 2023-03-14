@@ -30,6 +30,16 @@ body {
 #t1 {
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    width: 800px;
+    padding: 20px;
+}
+#t2 {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+   
+    
 }
 
 #fl {
@@ -99,8 +109,8 @@ text-align: center;
 }
 #gk{
     transform: skew(10deg);
-    width: 250px;
-    height: 300px;
+    width: 275px;
+    height: 370px;
     position: relative;
     animation-name: flo;
     animation-duration: 5s;
@@ -112,16 +122,10 @@ text-align: center;
 
 @keyframes flo {
     from {top: 0px; }
-    to {top: 275px;}
+    to {top: 200px;}
     
 }
-#fl2{
-    
-    width: 200px;
-    height: 300px;
-    position: relative;
-  
-}
+
 
 #foto{
     WIDTH:350px;
@@ -132,6 +136,65 @@ text-align: center;
     text-align: center;
 }
 .cuerpo3{
+    position: absolute;
+    padding: 20px;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+#li2{
     position: relative;
-    float: right;
+    list-style-type: none ;
+     width: 120px; 
+}
+#li2 a{
+    
+    
+    display: block;
+    
+
+}
+#li2>#ul2{
+    display: none;
+    position: absolute;
+    top: 0px;
+    right: 120px;
+}
+#li2 a:hover{
+    color: #000;
+    
+}
+#li2:hover>#ul2{
+    display: block;
+}
+#li2>#ul2>#li2{
+    float: left;
+}
+
+#ka{
+    width:300px;
+    height:350px;
+}
+
+#c1{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+}
+
+.cuerpo4{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 250px;
+}
+
+.addr{
+    bottom: 0;
+    left: 0;
+
 }
