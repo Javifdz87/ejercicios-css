@@ -95,6 +95,7 @@ body {
     display: flex;
     max-width: 3000px;
     margin: 0px auto;
+    border: 1px solid black;
 
 }
 
@@ -118,10 +119,10 @@ body {
 }
 
 .cuerpo2 {
-
+    
     max-width: 3000px;
     margin: 0px auto;
-
+border: 1px solid black;
 }
 
 #gk {
