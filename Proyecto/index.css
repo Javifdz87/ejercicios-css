@@ -34,12 +34,13 @@ body {
     width: 800px;
     padding: 20px;
 }
+
 #t2 {
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: justify;
-   
-    
+
+
 }
 
 #fl {
@@ -50,17 +51,22 @@ body {
     animation-duration: 2s;
     animation-delay: 0s;
     animation-iteration-count: infinite;
-    animation-direction: alternate; 
+    animation-direction: alternate;
     animation-timing-function: linear;
 }
 
 @keyframes flote {
-    from {top: 0px; }
-    to {top: 50px;}
-    
+    from {
+        top: 0px;
+    }
+
+    to {
+        top: 50px;
+    }
+
 }
 
-#tra{
+#tra {
     width: 250px;
     height: 95px;
     position: relative;
@@ -68,46 +74,57 @@ body {
     animation-duration: 4s;
     animation-delay: 0s;
     animation-iteration-count: infinite;
-    animation-direction: alternate; 
+    animation-direction: alternate;
     animation-timing-function: linear;
     transition: width 1s;
     transition-timing-function: ease;
 }
+
 @keyframes izq {
-    from {right: -300px; }
-    to {right: 0px;}
-    
+    from {
+        right: -300px;
+    }
+
+    to {
+        right: 0px;
+    }
+
 }
-.cuerpo{
+
+.cuerpo {
     display: flex;
     max-width: 3000px;
-    margin:0px auto;
-    
+    margin: 0px auto;
+
 }
 
-.encabezado{
-text-align: center;
+.encabezado {
+    text-align: center;
 }
 
-.opciones{
+.opciones {
     float: left;
 }
-.direccion{
+
+.direccion {
     border: 2px solid black;
     border-radius: 2px;
     width: 250px;
     padding: 10px;
 }
-.ft{
+
+.ft {
     float: left;
 }
-.cuerpo2{
-   
+
+.cuerpo2 {
+
     max-width: 3000px;
-    margin:0px auto;
-    
+    margin: 0px auto;
+
 }
-#gk{
+
+#gk {
     transform: skew(10deg);
     width: 275px;
     height: 370px;
@@ -116,84 +133,91 @@ text-align: center;
     animation-duration: 5s;
     animation-delay: 0s;
     animation-iteration-count: infinite;
-    animation-direction: alternate; 
+    animation-direction: alternate;
     animation-timing-function: linear;
 }
 
 @keyframes flo {
-    from {top: 0px; }
-    to {top: 200px;}
-    
+    from {
+        top: 0px;
+    }
+
+    to {
+        top: 200px;
+    }
+
 }
 
 
-#foto{
-    WIDTH:350px;
-    HEIGHT:350px;
+#foto {
+    WIDTH: 350px;
+    HEIGHT: 350px;
 }
 
-#indice{
+#indice {
     text-align: center;
 }
-.cuerpo3{
+
+.cuerpo3 {
     position: absolute;
     padding: 20px;
 }
 
-*{
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-}
-#li2{
+
+#li2 {
     position: relative;
-    list-style-type: none ;
-     width: 120px; 
-}
-#li2 a{
-    
-    
-    display: block;
-    
+    list-style-type: none;
+    width: 300px;
 
 }
-#li2>#ul2{
+
+#li2 a {
+
+
+    display: block;
+
+
+}
+
+#li2>#ul2 {
     display: none;
     position: absolute;
     top: 0px;
     right: 120px;
+
 }
-#li2 a:hover{
-    color: #000;
-    
-}
-#li2:hover>#ul2{
+
+
+#li2:hover>#ul2 {
     display: block;
 }
-#li2>#ul2>#li2{
+
+#li2>#ul2>#li2 {
     float: left;
 }
 
-#ka{
-    width:300px;
-    height:350px;
+#ka {
+    width: 300px;
+    height: 350px;
 }
 
-#c1{
+#c1 {
     position: relative;
     left: 0px;
     top: 0px;
     z-index: 1;
 }
 
-.cuerpo4{
+.cuerpo4 {
     position: fixed;
     bottom: 0;
     right: 0;
-    width: 250px;
+    width: 300px;
+
+
 }
 
-.addr{
+.addr {
     bottom: 0;
     left: 0;
 

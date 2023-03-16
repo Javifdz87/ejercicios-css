@@ -1,0 +1,48 @@
+body{
+    background-image: url(fotos//fondo.gif);
+    
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+
+.articulo{
+    background-image: url(fotos/fondo_articulo.jpg);
+
+}
+#cabecera{
+    background-image: url(fotos/cabecera.jpg);
+
+}
+
+.fecha{
+    background: no-repeat;
+    background-image: url(fotos/icono_fecha.gif); 
+}
+.categoria{
+    background-image: url(fotos/icono_categoria.gif); 
+    background: no-repeat;
+}
+.autor{
+    background-image: url(fotos/icono_autor.gif); 
+    background: no-repeat;
+}
+.comentarios{
+    background-image: url(fotos/icono_comentarios.gif); 
+    background: no-repeat;
+}
+.categoriass{
+    background-image: url(fotos/icono_categoria.gif); 
+    background: no-repeat;
+}
+#sobremi{
+    background-image: url(fotos/mifoto.gif); 
+    background: no-repeat;
+}
+
+#buscador{
+    
+}
