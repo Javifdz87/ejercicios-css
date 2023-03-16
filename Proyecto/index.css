@@ -1,7 +1,7 @@
 body {
     background-size: auto;
     background-attachment: fixed;
-    background-image: url(/Proyecto/fotos/fondo\ azuull.png);
+    background-image: url(fotos/fondo\ azuull.png);
 
 }
 
@@ -41,6 +41,7 @@ body {
     text-align: justify;
 
 
+
 }
 
 #fl {
@@ -71,7 +72,7 @@ body {
     height: 95px;
     position: relative;
     animation-name: izq;
-    animation-duration: 4s;
+    animation-duration: 5s;
     animation-delay: 0s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
@@ -86,16 +87,23 @@ body {
     }
 
     to {
-        right: 0px;
+        right: 300px;
     }
 
 }
 
 .cuerpo {
+
+    position: relative;
     display: flex;
-    max-width: 3000px;
+text-align: center;
     margin: 0px auto;
-    border: 1px solid black;
+
+
+}
+
+.espacio {
+    margin-bottom: 700px;
 
 }
 
@@ -105,6 +113,7 @@ body {
 
 .opciones {
     float: left;
+
 }
 
 .direccion {
@@ -119,10 +128,11 @@ body {
 }
 
 .cuerpo2 {
-    
-    max-width: 3000px;
+   
+    display: block;
+    position: relative;
     margin: 0px auto;
-border: 1px solid black;
+
 }
 
 #gk {
@@ -160,8 +170,9 @@ border: 1px solid black;
 }
 
 .cuerpo3 {
-    position: absolute;
+
     padding: 20px;
+
 }
 
 
@@ -184,7 +195,7 @@ border: 1px solid black;
     display: none;
     position: absolute;
     top: 0px;
-    right: 120px;
+    right: 150px;
 
 }
 
@@ -200,13 +211,14 @@ border: 1px solid black;
 #ka {
     width: 300px;
     height: 350px;
+
 }
 
 #c1 {
     position: relative;
     left: 0px;
     top: 0px;
-    z-index: 1;
+    z-index: 2;
 }
 
 .cuerpo4 {
@@ -216,10 +228,14 @@ border: 1px solid black;
     width: 300px;
 
 
+
 }
 
 .addr {
     bottom: 0;
     left: 0;
 
+}
+#ce{
+    text-align: center;
 }
